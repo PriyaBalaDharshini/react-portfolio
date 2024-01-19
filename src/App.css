@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+    text-decoration: none;
+    /* Change from Link to a, as it's the standard HTML tag for links */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.homeSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 90px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: #f5fcff;
 }
 
-.App-link {
-  color: #61dafb;
+.homeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    gap: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    gap: 20px;
+}
+
+.homeBox .homeButton {
+    margin-top: 20px;
+}
+
+.homeTitle {
+    /* color: #282938; */
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 90px;
+    align-self: stretch;
+}
+
+img {
+    border-radius: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navBox {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c0e4f4;
+    padding: 15px;
+}
+
+.navContent {
+    display: flex;
+}
+
+.navContent ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navContent li {
+    margin-left: 35px;
+}
+
+.navContent li:hover {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navIcons {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.navBar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* Set a higher z-index to ensure it stays above other elements */
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+}
+
+.aboutMeBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: #f5fcff;
+}
+
+.aboutMeTitle {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    word-spacing: 13px;
+
+}
+
+#aboutMe {
+    background-color: #f5fcff;
+}
+
+.aboutMeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    gap: 22px;
+
 }

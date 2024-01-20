@@ -9,9 +9,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-a {
+a,
+Link {
     text-decoration: none;
-    /* Change from Link to a, as it's the standard HTML tag for links */
+
 }
 
 .homeSection {
@@ -115,7 +116,8 @@ li {
     background-color: #f5fcff;
 }
 
-.aboutMeTitle {
+.aboutMeTitle,
+.skillsTitle {
     text-align: center;
     padding-top: 30px;
     font-weight: bold;
@@ -132,5 +134,42 @@ li {
     flex-direction: column;
     align-items: flex;
     gap: 22px;
+}
 
+#skills {
+    background-color: #f5fcff;
+    text-align: center;
+}
+
+#skills>p {
+    font-weight: 400;
+}
+
+
+.skillsBox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 32px;
+    padding: 50px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    cursor: ;
+}
+
+
+.frontEnd>div {
+    margin: 30px;
+}
+
+.backEnd-dataBase>div,
+.versionControl-deployment>div {
+    margin: 40px;
+}
+
+h3 {
+    
 }

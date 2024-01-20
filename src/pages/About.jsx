@@ -17,7 +17,7 @@ function About() {
                         <p>I'm currently deep into studies, arming myself with the skills to excel in this field.</p>
                         <p>My commitment to ongoing learning and unwavering determination will drive me toward success in Full Stack Development, where I aim to make a significant impact in the ever-evolving digital landscape.</p>
                         <div>
-                            <a href='https://drive.google.com/file/d/1uPn89nF3cLqnEwqPFrZ27z0mkNySLv4j/view' target="_blank" className='btn btn-outline-dark' download>Download CV</a>
+                            <a href='https://drive.google.com/file/d/1uPn89nF3cLqnEwqPFrZ27z0mkNySLv4j/view' target="_blank" className='btn btn-outline-dark' without rel="noreferrer" download>Download CV</a>
                         </div>
                     </div>
 

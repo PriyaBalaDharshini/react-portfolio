@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 function NavBar() {
+    const linkedin = 'https://www.linkedin.com/in/priyadharshini-thirunavukkarasu-b1b615b4/';
+    const gitHub = 'https://github.com/PriyaBalaDharshini';
+
     return (
         <section>
             <div>
@@ -19,8 +22,12 @@ function NavBar() {
                             </div>
                         </div>
                         <div className="navIcons">
-                            <button className='btn btn-outline-dark'><i className="fa-brands fa-github"></i></button>
-                            <button className='btn btn-outline-dark'><i className="fa-brands fa-linkedin"></i></button>
+                            <a href={gitHub} target="_blank" rel="noopener noreferrer">
+                                <button className='btn btn-outline-dark'><i className="fa-brands fa-github"></i></button>
+                            </a>
+                            <a href={linkedin} target="_blank" rel="noopener noreferrer">
+                                <button className='btn btn-outline-dark'><i className="fa-brands fa-linkedin"></i></button>
+                            </a>
                         </div>
                     </div>
 

@@ -24,17 +24,17 @@ function Skills() {
             case "React":
                 return ["Used the JavaScript library for building user interfaces, particularly single-page applications.", 'Knowledge: 65%'];
             case "MongoDB":
-                return ["Utilized MongoDB as a NoSQL database for storing and managing data in web applications.", 'Knowledge: 75%'];
+                return ["Utilized MongoDB as a NoSQL database for storing and managing data in web applications.", 'Knowledge: 65%'];
             case "Node":
-                return ["Developed server-side applications using Node.js, enabling JavaScript to run on the server.", 'Knowledge: 70%'];
+                return ["Developed server-side applications using Node.js, enabling JavaScript to run on the server.", 'Knowledge: 60%'];
             case "Express":
-                return ["Used Express.js as a web application framework for Node.js to simplify server-side development.", 'Knowledge: 70%'];
+                return ["Used Express.js as a web application framework for Node.js to simplify server-side development.", 'Knowledge: 60%'];
             case "Git":
-                return ["Version control system used to track changes in code, collaborate with others, and manage project history.", 'Knowledge: 80%'];
+                return ["Version control system used to track changes in code, collaborate with others, and manage project history.", 'Knowledge: 70%'];
             case "Github":
                 return ["Collaborated on coding projects by utilizing GitHub for version control, issue tracking, and code review.", 'Knowledge: 75%'];
             case "Netlify":
-                return ["Deployed and hosted web applications on Netlify, taking advantage of its continuous integration and deployment features.", 'Knowledge: 65%'];
+                return ["Deployed and hosted web applications on Netlify, taking advantage of its continuous integration and deployment features.", 'Knowledge: 75%'];
             default:
                 return ["", ""];
         }
@@ -46,6 +46,7 @@ function Skills() {
         <section id='skills'>
             <div className="container">
                 < h1 className='skillsTitle' > MY SKILLS</h1 >
+                <small>(Please Hover on Icon)</small>
                 <div className="skillItmes" style={{ padding: "50px" }}>
                     <div className="row">
                         <div className="col-4">

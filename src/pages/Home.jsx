@@ -10,10 +10,13 @@ function Home() {
                         Hello, This is Priyadharshini T.
                     </p>
                     <h4> A Budding</h4>
+
                     <h1 className="homeTitle">
+                        MERN <br />
                         Full Stack <br />
                         Developer
                     </h1>
+
                     <p className="homeDes">
                         Enthusiastic about Growth and Innovation in the World of Development. <br />
                         Eagerly Waiting to Kickstart My Career. <br />

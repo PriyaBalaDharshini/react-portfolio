@@ -96,9 +96,8 @@ li {
 
 .navBar {
     position: sticky;
-    top: 0;
+    top: 20;
     z-index: 100;
-    /* Set a higher z-index to ensure it stays above other elements */
 }
 
 .navLink {
@@ -109,7 +108,7 @@ li {
 .aboutMeBox {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 50px;
+    padding: 60px;
     align-items: center;
     justify-content: space-between;
     gap: 32px;
@@ -117,7 +116,9 @@ li {
 }
 
 .aboutMeTitle,
-.skillsTitle {
+.skillsTitle,
+.educationTitle,
+.contactMe {
     text-align: center;
     padding-top: 30px;
     font-weight: bold;
@@ -125,7 +126,10 @@ li {
 
 }
 
-#aboutMe {
+#aboutMe,
+#education,
+#skills,
+#contact {
     background-color: #f5fcff;
 }
 
@@ -133,11 +137,10 @@ li {
     display: flex;
     flex-direction: column;
     align-items: flex;
-    gap: 22px;
+    gap: 30px;
 }
 
 #skills {
-    background-color: #f5fcff;
     text-align: center;
 }
 
@@ -157,9 +160,8 @@ li {
 img {
     width: 100px;
     height: 100px;
-    cursor: ;
-}
 
+}
 
 .frontEnd>div {
     margin: 30px;
@@ -170,6 +172,28 @@ img {
     margin: 40px;
 }
 
-h3 {
-    
+.boxInside {
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+
+}
+
+.info:hover {
+    margin-bottom: 20px;
+    box-shadow: -10px -10px 10px 10px #c0e4f4;
+}
+
+
+
+.contactInside {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 50px;
+
 }

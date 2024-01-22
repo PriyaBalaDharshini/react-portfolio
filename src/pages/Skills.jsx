@@ -52,7 +52,7 @@ function Skills() {
                         <div className="col-4">
                             <h3>1. Front End</h3>
                             <div className="frontEnd">
-                                <div className="html"
+                                <div className="html animated-card-2"
                                     style={{ opacity: hoverSkill === "HTML" ? 0.9 : 1, cursor: "grab" }}
                                     onMouseEnter={() => handleMouseEnter("HTML")}
                                     onMouseLeave={handleMouseLeave}>
@@ -66,7 +66,7 @@ function Skills() {
                                     )}
                                 </div>
 
-                                <div className="css"
+                                <div className="css animated-card-1"
                                     style={{ opacity: hoverSkill === "CSS" ? 0.9 : 1, cursor: "grab" }}
                                     onMouseEnter={() => handleMouseEnter("CSS")}
                                     onMouseLeave={handleMouseLeave}>
@@ -80,7 +80,7 @@ function Skills() {
                                     )}
                                 </div>
 
-                                <div className="bootstrap"
+                                <div className="bootstrap animated-card-2"
                                     style={{ opacity: hoverSkill === "Bootstrap" ? 0.9 : 1, cursor: "grab" }}
                                     onMouseEnter={() => handleMouseEnter("Bootstrap")}
                                     onMouseLeave={handleMouseLeave}>
@@ -94,7 +94,7 @@ function Skills() {
                                     )}
                                 </div>
 
-                                <div className="js"
+                                <div className="js animated-card-1"
                                     style={{ opacity: hoverSkill === "Javascript" ? 0.9 : 1, cursor: "grab" }}
                                     onMouseEnter={() => handleMouseEnter("Javascript")}
                                     onMouseLeave={handleMouseLeave}>
@@ -107,7 +107,7 @@ function Skills() {
                                         </div>
                                     )}
                                 </div>
-                                <div className="react"
+                                <div className="react animated-card-2"
                                     style={{ opacity: hoverSkill === "React" ? 0.9 : 1, cursor: "grab" }}
                                     onMouseEnter={() => handleMouseEnter("React")}
                                     onMouseLeave={handleMouseLeave}>
@@ -125,7 +125,7 @@ function Skills() {
                         <div className="col-4">
                             <div className="backEnd-dataBase">
                                 <h3>2. Back End</h3>
-                                <div className="node" style={{ opacity: hoverSkill === "Node" ? 0.9 : 1, cursor: "grab" }}
+                                <div className="node animated-card-1" style={{ opacity: hoverSkill === "Node" ? 0.9 : 1, cursor: "grab" }}
                                     onMouseEnter={() => handleMouseEnter("Node")}
                                     onMouseLeave={handleMouseLeave}>
                                     <p>Node</p>
@@ -137,7 +137,7 @@ function Skills() {
                                         </div>
                                     )}
                                 </div>
-                                <div className="express" style={{ opacity: hoverSkill === "Express" ? 0.9 : 1, cursor: "grab" }}
+                                <div className="express animated-card-2" style={{ opacity: hoverSkill === "Express" ? 0.9 : 1, cursor: "grab" }}
                                     onMouseEnter={() => handleMouseEnter("Express")}
                                     onMouseLeave={handleMouseLeave}>
                                     <p>Express</p>
@@ -150,7 +150,7 @@ function Skills() {
                                     )}
                                 </div>
                                 <h3>3. Database</h3>
-                                <div className="mongodb" style={{ opacity: hoverSkill === "MongoDB" ? 0.9 : 1, cursor: "grab" }}
+                                <div className="mongodb animated-card-1" style={{ opacity: hoverSkill === "MongoDB" ? 0.9 : 1, cursor: "grab" }}
                                     onMouseEnter={() => handleMouseEnter("MongoDB")}
                                     onMouseLeave={handleMouseLeave}>
                                     <p>MongoDB</p>
@@ -167,7 +167,7 @@ function Skills() {
                         <div className="col-4">
                             <div className="versionControl-deployment">
                                 <h3>4. Version Control</h3>
-                                <div className="git" style={{ opacity: hoverSkill === "Git" ? 0.9 : 1, cursor: "grab" }}
+                                <div className="git animated-card-2" style={{ opacity: hoverSkill === "Git" ? 0.9 : 1, cursor: "grab" }}
                                     onMouseEnter={() => handleMouseEnter("Git")}
                                     onMouseLeave={handleMouseLeave}>
                                     <p>Git</p>
@@ -179,7 +179,7 @@ function Skills() {
                                         </div>
                                     )}
                                 </div>
-                                <div className="github" style={{ opacity: hoverSkill === "Github" ? 0.9 : 1, cursor: "grab" }}
+                                <div className="github animated-card-1" style={{ opacity: hoverSkill === "Github" ? 0.9 : 1, cursor: "grab" }}
                                     onMouseEnter={() => handleMouseEnter("Github")}
                                     onMouseLeave={handleMouseLeave}>
                                     <p>Github</p>
@@ -192,7 +192,7 @@ function Skills() {
                                     )}
                                 </div>
                                 <h3>5. Deployment</h3>
-                                <div className="netlify" style={{ opacity: hoverSkill === "Netlify" ? 0.9 : 1, cursor: "grab" }}
+                                <div className="netlify animated-card-2" style={{ opacity: hoverSkill === "Netlify" ? 0.9 : 1, cursor: "grab" }}
                                     onMouseEnter={() => handleMouseEnter("Netlify")}
                                     onMouseLeave={handleMouseLeave}>
                                     <p>Netlify</p>

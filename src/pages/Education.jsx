@@ -10,7 +10,7 @@ function Education() {
                 <h1 className='educationTitle'>ACADEAMIC BACKGROUND</h1>
                 <div className="educationBox">
                     <div className="boxInside">
-                        <div class="card info" style={cardStyle}>
+                        <div class="card info animated-card-top" style={cardStyle}>
                             <img src="./images/10th.png" class="card-img-top" alt="..." style={imageStyle} />
                             <div class="card-body text-center">
                                 <h5 class="card-title">Standard 10</h5>
@@ -21,7 +21,7 @@ function Education() {
                             </div>
                         </div>
 
-                        <div class="card info" style={cardStyle}>
+                        <div class="card info animated-card-bottom" style={cardStyle}>
                             <div class="card-body">
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Standard 12</h5>
@@ -34,7 +34,7 @@ function Education() {
                             <img src="./images/12th.png" class="card-img-top" alt="..." style={imageStyle} />
                         </div>
 
-                        <div class="card info" style={cardStyle}>
+                        <div class="card info animated-card-top" style={cardStyle}>
                             <img src="./images/clg.png" class="card-img-top" alt="..." style={imageStyle} />
                             <div class="card-body text-center">
                                 <h5 class="card-title">B. Tech Chemical Engineering</h5>
@@ -45,7 +45,7 @@ function Education() {
                             </div>
                         </div>
 
-                        <div class="card info" style={cardStyle}>
+                        <div class="card info animated-card-bottom" style={cardStyle}>
                             <div class="card-body text-center">
                                 <h5 class="card-title">Sports Achievements</h5>
                                 <p class="card-text">4th National Level Rural Tournament 2012–2013 at Kolkata, West Bengal: Secured 4th place in volleyball.</p>

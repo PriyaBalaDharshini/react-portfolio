@@ -115,6 +115,31 @@ li {
     background-color: #f5fcff;
 }
 
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 5s ease-in-out infinite;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* 
+.zoom-effect {
+    transition: transform 1s ease-in-out;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.1);
+} */
+
 .aboutMeTitle,
 .skillsTitle,
 .educationTitle,
@@ -157,6 +182,7 @@ li {
     padding: 50px;
 }
 
+
 img {
     width: 100px;
     height: 100px;
@@ -196,4 +222,80 @@ img {
     gap: 30px;
     padding: 50px;
 
+}
+
+.animated-card-1,
+.animated-card-2 {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.animated-card-1 {
+    animation: slideInFromRight 2s forwards 1;
+}
+
+.animated-card-2 {
+    animation: slideInFromLeft 2s forwards 1;
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animated-card-top,
+animated-card-bottom {
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+.animated-card-top {
+    animation: slideInFromTop 2s forwards 1
+}
+
+.animated-card-bottom {
+    animation: slideInFromBottom 2s forwards 1
+}
+
+@keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

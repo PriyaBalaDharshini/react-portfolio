@@ -8,7 +8,7 @@ function About() {
                 <div className="aboutMeBox">
 
                     <div className="aboutMeImage">
-                        <img src="./images/AboutMe.jpg" alt="" style={{ height: "427px", width: "640px" }} />
+                        <img src="./images/AboutMe.jpg" className='fade-in' alt="" style={{ height: "427px", width: "640px" }} />
                     </div>
                     <div className="aboutMeContent">
                         <h1>Full Stack Developer - MERN </h1>

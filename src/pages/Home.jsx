@@ -29,7 +29,7 @@ function Home() {
             </div>
 
             <div>
-                <img src="./images/Home.jpg" alt="" style={{ height: "427px", width: "640px" }} />
+                <img src="./images/Home.jpg" className='fade-in' alt="" style={{ height: "427px", width: "640px" }} />
 
             </div>
         </section>

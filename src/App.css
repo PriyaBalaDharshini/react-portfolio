@@ -136,11 +136,13 @@ li {
 
 }
 
+#homeSection,
 #aboutMe,
 #education,
 #skills,
 #contact {
     background-color: #f5fcff;
+    max-height: 100vh;
 }
 
 .aboutMeContent {
@@ -220,7 +222,7 @@ img {
 }
 
 .animated-card-2 {
-    animation: slideInFromLeft 2s forwards 1;
+    animation: slideInFromLeft 7s forwards 1;
 }
 
 @keyframes slideInFromRight {
@@ -287,7 +289,7 @@ animated-card-bottom {
 
 .fade-in {
     opacity: 0.2;
-    animation: fadeIn 4s ease-in-out infinite;
+    animation: fadeIn 4s ease-out infinite;
 
 }
 
